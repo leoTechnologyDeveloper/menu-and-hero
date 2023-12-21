@@ -24,7 +24,7 @@ const Header = () => {
           {isOpen ? <XMarkIcon /> : <Bars3Icon />}
         </div>
         <ul
-          className={`flex flex-col md:flex-row items-center  justify-evenly gap-5  md:static absolute left-0 bg-gray-900/90 w-screen h-screen md:h-5 md:w-auto z-5 ease-in duration-800 transition-all md:translate-y-0  md:p-2 duration-300 ${
+          className={`flex flex-col md:flex-row items-center  justify-center gap-5  md:static absolute left-0 bg-gray-900/90 w-screen h-screen md:h-5 md:w-auto z-5 ease-in duration-800 transition-all md:translate-y-0  md:p-2 duration-300 ${
             isOpen
               ? "translate-y-0 "
               : "-translate-y-full opacity-0 md:opacity-100"
