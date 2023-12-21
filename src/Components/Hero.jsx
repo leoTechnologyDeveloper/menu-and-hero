@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
     <div
-      className="w-full h-screen bg-blue-500  pt-60 flex flex-col gap-5 items-center justify-center md:justify-start
-    bg-[linear-gradient(to_right_bottom,rgba(0,0,255,0.2),rgba(0,0,92,0.4)),url('./src/assets/back2.jpg')]  
-    md:bg-[linear-gradient(to_right_bottom,rgba(0,0,255,0.2),rgba(0,0,92,0.4)),url('./src/assets/back1.jpg')] bg-center md:bg-top bg-no-repeat bg-cover "
+      className={`w-full h-screen bg-blue-500  pt-60 flex flex-col gap-5 items-center justify-start
+       bg-back1
+      bg-center md:bg-top bg-no-repeat bg-cover `}
     >
       <h1 className="text-white font-lobste text-6xl md:text-8xl ">
         THINK CLEAR
